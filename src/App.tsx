@@ -4,6 +4,7 @@ import { Logo } from './components/Logo';
 
 import './styles/theme.css';
 import './styles/global.css';
+import { Menu } from './components/Menu';
 
 export function App() {
   return (
@@ -13,7 +14,7 @@ export function App() {
       </Container>
 
       <Container>
-        <Heading>Menu</Heading>
+        <Menu />
       </Container>
     </>
   );
