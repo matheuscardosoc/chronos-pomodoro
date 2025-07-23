@@ -6,14 +6,14 @@
   justify-content: center;
 }
 
-.cycles span:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease-in-out;
-}
-
 .cycleDots {
   display: flex;
   gap: 0.8rem;
+}
+
+.cycleDots span:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
 }
 
 .cycleDot {
